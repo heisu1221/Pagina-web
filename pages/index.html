@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aimstar</title>
-  <link rel="stylesheet" href="../css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aimstar - Inicio</title>
+  <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body>
+  
+  <video autoplay muted loop id="bg-video">
+    <source src="../vid/Sin título.mp4" type="video/mp4" />
+    Tu navegador no soporta video.
+  </video>
+
+  
   <header>
     <nav>
       <div class="logo">
-        <img src="../img/logo.png" alt="Aimstar Logo">
+        <img src="../img/logo.png" alt="Aimstar Logo" />
       </div>
 
-      <input type="checkbox" id="toggle">
+      
+      <input type="checkbox" id="toggle" />
+
       <ul class="list">
         <li><a href="index.html" class="active">Inicio</a></li>
         <li><a href="mouse.html">Mouse</a></li>
@@ -29,18 +38,5 @@
     </nav>
   </header>
 
-  <main>
-    <!-- Video de fondo -->
-    <section class="hero">
-      <video autoplay muted loop id="bg-video">
-        <source src="../vid/Sin título.mp4" type="video/mp4">
-        Tu navegador no soporta video en HTML5.
-      </video>
-      <div class="hero-text">
-        <h1>Bienvenido a Aimstar</h1>
-        <p>Encuentra el mejor equipo para gamers: mouses, teclados y accesorios.</p>
-      </div>
-    </section>
-  </main>
 </body>
 </html>
