@@ -1,3 +1,20 @@
+main {
+  padding-top: 120px; 
+}
+
+
+
+
+
+.logo img {
+    height: 80px; 
+    width: auto;  
+}
+
+
+
+
+
 #bg-video {
     position: fixed;
     top: 0;
